@@ -1,15 +1,3 @@
-// Wire Controller Reader
-// by Nicholas Zambetti [http://www.zambetti.com](http://www.zambetti.com)
-
-// Demonstrates use of the Wire library
-// Reads data from an I2C/TWI peripheral device
-// Refer to the "Wire Peripheral Sender" example for use with this
-
-// Created 29 March 2006
-
-// This example code is in the public domain.
-
-
 #include <Wire.h>
 
 // ================ PIN DEFINITIONS ================
@@ -76,13 +64,6 @@ void loop() {
 
   handle_L_button();
   handle_R_button();
-
-
-  // digitalWrite(BLUE_L0, HIGH);
-  // digitalWrite(BLUE_L1, HIGH);
-  // digitalWrite(BLUE_L2, HIGH);
-  // digitalWrite(BLUE_L3, HIGH);
-  // digitalWrite(BLUE_L4, HIGH);
 }
 
 // update blue LED's based on potentiometer input
